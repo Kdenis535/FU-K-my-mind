@@ -342,5 +342,40 @@ blockquote span,
 
 .about-studio {
 	border-bottom: 1px solid #ececec;
-
+}
 /* == About us end == */
+
+/* == Services ==*/
+#services .tabs-nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+#services .tabs-nav {
+	overflow: hidden;
+	margin-top: 48px;
+	margin-bottom: 82px; 
+}
+#services .tabs-nav li span {
+	display: block;
+	color: rgba(17, 17, 17 .5);
+}
+#services .tabs-nav .ui-state-active span {
+	color: #000;
+}
+.tabs-wrapper {
+	overflow: hidden;
+	width: 100%;
+}
+.tabs-nav .icon {
+	font-size: 48.01px;
+	letter-spacing: .5em;
+}
+.tabs-nav .name {
+	font-family: 'Dosis';
+	font-size: 14px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+/* == Services end==*/
