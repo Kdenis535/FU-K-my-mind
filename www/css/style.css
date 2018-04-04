@@ -270,7 +270,7 @@ blockquote span,
 	font-size: 12px;
 	margin-top: 15px;
 }
-/* sills star */
+	/* sills start */
 .team-item .team-item-skills {
 	opacity: 0;
 	position: absolute;
@@ -338,7 +338,7 @@ blockquote span,
 .progress-wrap .progress.photography {
 	transition: width .5s ease-out .6s;
 }
-/* skills end */
+	/* skills end */
 
 .about-studio {
 	border-bottom: 1px solid #ececec;
@@ -379,3 +379,65 @@ blockquote span,
 	margin-top: 35px;
 }
 /* == Services end==*/
+
+/* == Lets talk== */
+.lets-talk-content {
+	padding: 140px 0;
+}
+
+.lets-talk-content p {
+	color: rgba(255, 255, 255, .7);
+	margin-bottom: 35px;
+	font-weight: 300;
+}
+.lets-talk .lets-talk-img {
+	margin-top: -35px;
+}
+/* == Lets talk ==*/
+
+/* == Portfolio ==*/
+.portfolio-content {
+	margin-top: 135px;
+}
+.portfolio .default-text {
+	max-width: 750px;
+	margin: auto;
+}
+#portfolio .portfolio-nav {
+	font-family: 'Dosis';
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	color: rgba(17, 17, 17, .5);
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+#portfolio .portfolio-nav li {
+	color: rgba(17, 17, 17, .5);
+	display: inline-block;
+	margin: 0 34px;
+}
+#portfolio .portfolio-nav .ui-state-active {
+	color: #000;
+}
+.portfolio-wrapper {
+	overflow: hidden;
+	margin-top: 85px;
+}
+.portfolio-items {
+	margin: 0 -4px;
+}
+.portfolio-items .portfolio-item {
+	width: 33.3333%;
+	padding: 0 4px;
+	float: left;
+}
+.portfolio-items .portfolio-item img {
+	filter: grayscale(100%);
+	width: 100%;
+}
+.portfolio-items .portfolio-item img:hover {
+	filter: none;
+}
+/* == Portfolio ==*/

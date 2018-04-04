@@ -1,4 +1,4 @@
 $(function() {
     $( "#services" ).tabs();
-    $( "#tabs-p" ).tabs();
+    $( "#portfolio" ).tabs();
 });
