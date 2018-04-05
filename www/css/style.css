@@ -393,7 +393,7 @@ blockquote span,
 .lets-talk .lets-talk-img {
 	margin-top: -35px;
 }
-/* == Lets talk ==*/
+/* == Lets talk end ==*/
 
 /* == Portfolio ==*/
 .portfolio-content {
@@ -436,8 +436,34 @@ blockquote span,
 .portfolio-items .portfolio-item img {
 	filter: grayscale(100%);
 	width: 100%;
+	transition: all 2s linear;
 }
 .portfolio-items .portfolio-item img:hover {
 	filter: none;
 }
-/* == Portfolio ==*/
+/* == Portfolio  end ==*/
+
+/* == Start project == */
+.start-project span {
+	color: #fff;
+	line-height: 1.733;
+}
+/* == Start project end == */
+
+/* == Why choose us ==  */
+.icon-choose-us {
+	font-size: 50px;
+	color: #111;
+	letter-spacing: .5em;
+}
+.title-col-choose-us {
+	font-size: 14px;
+	letter-spacing: .4em;
+	font-weight: 400;
+	color: #111;
+	margin: 35px 0;
+}
+.why-choose-us .row + .row {
+	margin-top: 75px;
+}
+/* == Why choose us end== */
