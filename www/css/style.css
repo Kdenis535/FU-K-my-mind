@@ -467,3 +467,44 @@ blockquote span,
 	margin-top: 75px;
 }
 /* == Why choose us end== */
+
+
+/* Reviews  */
+
+
+/* === Latest news == */
+.latest-news .all-news {
+	float: right;
+	font-size: 11px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	line-height: 22px;
+	color: #999;
+}
+.news-item img {
+	filter: grayscale(100%);
+	transition: all 2s linear;
+}
+.news-item img:hover {
+	filter:none;
+}
+.news-item .title-news {
+	font-size: 15px;
+	letter-spacing: .2em;
+	margin-top: 30px;
+	color: #777;
+}
+.news-item .date {
+	font-size: 11px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	color: #999;
+	margin-top: 17px;
+}
+.news-item .default-text {
+	font-weight: 400;
+	color: #777;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+/* == Latest news end == */
