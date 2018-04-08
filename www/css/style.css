@@ -203,6 +203,74 @@ blockquote span,
 	padding: 7px 15px;
 	font-size: 11px;
 }
+.form-control {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	height: 36px;
+	font-size: 12px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #777;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.form-control:focus {
+	border-color: #111;
+}
+textarea.form-control {
+	min-height: 82px;
+	padding-top: 10px;
+}
+.form-control.desabled,
+.form-control [disabled] {
+	cursor: not-allowed;
+	opacity: .6;
+}
+.form-control.error {
+	border-color: #f57e7e;
+}
+.form-info {
+	font-size: 11px;
+	color: #aaa;
+	font-weight: 400px;
+}
+.form-info .fa {
+	font-size: 12px;
+}
+.rhomb-icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 14px;
+	transform: rotate(45deg);
+}
+.rhomb-icon.black-icon {
+	color: #fff;
+	background-color: #111111;
+}
+.rhomb-icon.transparent-icon {
+	background-color: transparent;
+	color: #111;
+	border: 1px solid  #000;
+}
+.rhomb-icon.white-icon {
+	color: #111;
+	background-color: #fff;
+	
+}
+.rhomb-icon i {
+	transform: rotate(-45deg);
+}
+.footer {
+	padding-top: 140px;
+	padding-bottom: 60px;
+}
 /* ===== Default component end ===== */
 
 /* CUSTOM STYLE COMPONENT START */
@@ -508,3 +576,66 @@ blockquote span,
 	margin-bottom: 25px;
 }
 /* == Latest news end == */
+
+
+/* == Subcribe ==*/
+.subcribe button {
+	line-height: 1;
+}
+.subcribe .form-control {
+	width: 290px;
+}
+.subcribe .form-info {
+	margin-top: 17px;
+}
+/* == Subcribe end==*/
+
+/* == Contacts == */
+.contact-items-wrapper {
+	margin-bottom: 80px;
+}
+.contact-item .contact-item-content {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.contact-item .contact-item-content span {
+	display: block;
+	text-align: left;
+}
+.contact-item-content .contact-title {
+	font-family: 'Dosis';
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	color: #777;
+}
+.contact-item-content .contact-data {
+	font-family: 'Open sans';
+	font-weight: 300;
+	font-size: 15px;
+	color: #444;
+	line-height: 1.6;
+}
+.contact-form {
+	margin: 0 -5px;
+	overflow: hidden;
+}
+.contact-form .form-col {
+	float: left;
+	width: 50%;
+	padding: 0 5px;
+	margin-bottom: 20px;
+}
+.contact-form .form-control + .form-control {
+	margin-top: 10px;
+}
+.contact-form .form-info {
+	line-height: 41px;
+	margin-left: 5px;
+}
+.contact-form button {
+margin-right: 5px;
+}
+/* == Contacts end== */
