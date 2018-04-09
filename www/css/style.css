@@ -639,3 +639,76 @@ textarea.form-control {
 margin-right: 5px;
 }
 /* == Contacts end== */
+
+/* == MAP start == */
+.map-container {
+	position: relative;
+}
+#map {
+	height: 410px;;
+}
+.on-map-black {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .9);
+	top: 0;
+	left: 0;
+	text-align: center;	
+}
+.map-container:hover .on-map-black {
+	display: none;
+	
+}
+.map-container .on-map-black::before {
+	content: ' ';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-left: -4px;
+}
+.map-container .on-map-black .on-map-black-content {
+	display: inline-block;
+	vertical-align: middle;	
+}
+.map-container .on-map-black span {
+	font-family: 'Dosis';
+	font-weight: 400;
+	color: rgba(255, 255, 255, .75);
+	font-size: 16px;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 28px;
+}
+/* == MAP END */
+
+
+/* == FOOTER ==*/
+.footer-content .social-nav {
+	margin-top: 24px;
+}
+.footer-content .social-nav li {
+	display: inline-block;
+}
+.footer-content .social-nav li + li {
+	margin-left: 14px;
+}
+.footer-content .copywright {
+	margin-top: 110px;
+}
+.footer-content .copywright span {
+	display: block;
+}
+.footer-content .copywright .date {
+	font-family: 'Dosis';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+	color: #111;
+}
+
+/* ==FOOTER END */
+/* CUSTOM STYLE COMPONENT END */
