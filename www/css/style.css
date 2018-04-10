@@ -130,6 +130,23 @@ textarea {
 .header .header-nav li + li {
 	margin-left: 35px;
 }
+@media(max-width: 767px){
+	.header .header-nav li + li {
+		margin-left: 25px;
+	}
+	.header .logo {
+		float: center;
+	}
+}
+@media(max-width: 567px){
+	.header .header-nav li + li {
+	margin-left: 15px;
+	}
+	.header .header-nav li {
+		font-size: 10px;
+		line-height: 21px;
+	}
+}
 .title {
 	font-family: 'Dosis', sans-serif;
 	text-transform: uppercase;
@@ -271,6 +288,14 @@ textarea.form-control {
 	padding-top: 140px;
 	padding-bottom: 60px;
 }
+.arrow-up { 
+	font-size: 50px;
+	color: #c6c6c6;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	cursor: pointer;
+}
 /* ===== Default component end ===== */
 
 /* CUSTOM STYLE COMPONENT START */
@@ -309,6 +334,39 @@ textarea.form-control {
 	color: #fefefe;
 	font-weight: 300;
 }
+@media(max-width: 991px){
+	.inner h1 {
+		font-size: 25px;
+		margin-bottom: 70px;
+		letter-spacing: 1.5em;
+		text-indent: 1.5em;
+	}
+	.inner span {
+		font-size: 13px;
+	}
+}
+@media(max-width: 767px){
+	.inner h1 {
+		font-size: 22px;
+		margin-bottom: 70px;
+		letter-spacing: 1.3em;
+		text-indent: 1.3em;
+	}
+	.inner span {
+		font-size: 12px;
+	}
+
+}
+@media(max-width: 767px){
+	.inner h1 {
+		text-indent: 0px;
+	}
+}
+@media(max-width: 360px){
+	.inner h1 {
+		padding-bottom: 5px;
+	}
+}
 /* ==Inner end== */
 
 
@@ -332,6 +390,7 @@ textarea.form-control {
 	text-transform: uppercase;
 	font-weight: 400;
 	margin: 30px 0 10px;
+	max-width: 370px;
 }
 .team-item-info .team-item-role {
 	display: block;
@@ -343,7 +402,6 @@ textarea.form-control {
 	opacity: 0;
 	position: absolute;
 	top: 0;
-	width: 100%;
 	height: 100%;
 	background: #000;
 	transition: all .2s linear;
@@ -360,7 +418,7 @@ textarea.form-control {
 	font-family: 'Open sana';
 	font-size: 13px;
 	font-weight: 400;
-	line-height: 1.6154;
+	line-height: 1.6;
 	color: rgba(255, 255, 255, .5);
 	margin: 25px 0;
 }
@@ -411,6 +469,24 @@ textarea.form-control {
 .about-studio {
 	border-bottom: 1px solid #ececec;
 }
+@media(max-width: 991px){
+	.team-item .team-item-skills{
+	margin: auto;
+    left: 0; bottom: 0; right: 0;
+	max-width: 370px;
+	}
+	.team-item-skills {
+		text-align: left;
+	}
+	.team-wrapper {
+	text-align: center;
+	}
+	.team-item-info { 
+	padding: 30px 0 40px 0; 
+	margin:auto;
+	}
+
+}
 /* == About us end == */
 
 /* == Services ==*/
@@ -436,7 +512,7 @@ textarea.form-control {
 	width: 100%;
 }
 .tabs-nav .icon {
-	font-size: 48.01px;
+	font-size: 48px;
 	letter-spacing: .5em;
 }
 .tabs-nav .name {
@@ -445,6 +521,28 @@ textarea.form-control {
 	letter-spacing: .4em;
 	text-transform: uppercase;
 	margin-top: 35px;
+}
+@media(max-width: 767px){
+	.tabs-nav .name {
+		font-size: 10px;
+		padding-bottom: 20px;
+	}
+	.tabs-nav .icon {
+		font-size: 38px;
+	}
+	#services .tabs-nav li {
+		width: 33.33333%;
+	}
+}
+@media(max-width: 360px){
+	.tabs-nav .name {
+		font-size: 9px;
+		padding-bottom: 20px;
+	}
+	#development .col .col-4 .col-lg-6 .col-xs-12 p{
+		padding: 10px 0;
+	}
+	
 }
 /* == Services end==*/
 
@@ -457,9 +555,22 @@ textarea.form-control {
 	color: rgba(255, 255, 255, .7);
 	margin-bottom: 35px;
 	font-weight: 300;
+	float: left;
 }
 .lets-talk .lets-talk-img {
 	margin-top: -35px;
+	float: right;
+}
+@media(max-width: 1200px){
+	.lets-talk-content {
+		padding: 40px 0;
+	}
+	
+}
+@media(max-width: 576px){
+	.lets-talk .lets-talk-img{
+		float: left;
+	}
 }
 /* == Lets talk end ==*/
 
@@ -508,6 +619,16 @@ textarea.form-control {
 }
 .portfolio-items .portfolio-item img:hover {
 	filter: none;
+}
+@media(max-width: 767px){
+	#portfolio .portfolio-nav li{
+		width: 50%;
+		padding: 10px;
+		margin: 0 -34px;
+	}
+	.portfolio-items .portfolio-item {
+		width: 50%;
+	}
 }
 /* == Portfolio  end ==*/
 
@@ -619,6 +740,11 @@ textarea.form-control {
 	left: 17px;
 	top: 14px;	
 }
+@media(max-width: 767px){
+	.reviews-carousel {
+		padding: 35px 30px;
+	}
+}
 /* Review end */
 
 /* == Why choose us ==  */
@@ -636,6 +762,14 @@ textarea.form-control {
 }
 .why-choose-us .row + .row {
 	margin-top: 75px;
+}
+@media(max-width: 991px){
+	.icon-choose-us {
+		padding-top: 30px;
+	}
+	.why-choose-us .row + .row {
+		margin-top: 25px;
+	}
 }
 /* == Why choose us end== */
 
@@ -678,6 +812,11 @@ textarea.form-control {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
+@media(max-width: 767px){
+	.news-item{
+		padding-bottom: 30px
+	}
+}
 /* == Latest news end == */
 
 
@@ -690,6 +829,11 @@ textarea.form-control {
 }
 .subcribe .form-info {
 	margin-top: 17px;
+}
+@media(max-width: 767px){
+	.subcribe button {
+		margin: 20px;
+	}
 }
 /* == Subcribe end==*/
 
@@ -740,6 +884,13 @@ textarea.form-control {
 }
 .contact-form button {
 margin-right: 5px;
+}
+@media(max-width: 1200px){
+	.contact-items-wrapper {
+		margin-bottom: 10px;
+	}
+}	.contact-items-wrapper .row .col-lg-12{
+	margin: 10px 0;
 }
 /* == Contacts end== */
 
@@ -815,3 +966,17 @@ margin-right: 5px;
 
 /* ==FOOTER END */
 /* CUSTOM STYLE COMPONENT END */
+
+
+@media(max-width: 1200px){
+
+}
+@media(max-width: 991px){
+	
+}
+@media(max-width: 767px){
+	
+}
+@media(max-width: 576px){
+	
+}
