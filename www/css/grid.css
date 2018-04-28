@@ -7,7 +7,6 @@
 }
 .row{
 	margin: 0 -15px;
-	padding-bottom: 80px;
 	
 }
 .row::after{
@@ -92,6 +91,7 @@
   .col-lg-12{
     width: 100%;
   }
+  
 }
 
 @media(max-width: 991px){
@@ -131,6 +131,9 @@
   .col-md-12{
     width: 100%;
   }
+  .d-md-none{
+		display: none;
+	}
 }
 @media(max-width: 756px){
   .col-sm-1{
@@ -170,7 +173,7 @@
     width: 100%;
   }
 }
-@media(max-width: 360px){
+@media(max-width: 479){
   .col-xs-1{
     width: 8.33333%;
   }
